@@ -8,35 +8,35 @@ const items = [
   {
     id: 1,
     color: "from-red-300 to-blue-300",
-    title: "React Commerce",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    title: "URL Shortner",
+    desc: "This project aims to provide a simple and efficient solution for shortening URLs, making them more manageable and easier to share. With the exponential growth of web content, long URLs can often be cumbersome and prone to errors when shared, especially in contexts such as social media posts or messaging apps.",
+    img: "/shortUrlProject.png",
+    link: "https://next-js-url-shorten.vercel.app/",
   },
   {
     id: 2,
     color: "from-blue-300 to-violet-300",
-    title: "Next.js Medium Blog",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    title: "Learn Three.js",
+    desc: "Learn Three.js is an educational project aimed at teaching individuals how to use Three.js, a popular JavaScript library used for creating and displaying 3D computer graphics in web browsers",
+    img: "/threeJS.png",
+    link: "https://atom03.github.io/ThreeJS/",
   },
-  {
-    id: 3,
-    color: "from-violet-300 to-purple-300",
-    title: "Vanilla Book App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
-  },
-  {
-    id: 4,
-    color: "from-purple-300 to-red-300",
-    title: "Spotify Music App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://lama.dev",
-  },
+  // {
+  //   id: 3,
+  //   color: "from-violet-300 to-purple-300",
+  //   title: "Vanilla Book App",
+  //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+  //   img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+  //   link: "https://lama.dev",
+  // },
+  // {
+  //   id: 4,
+  //   color: "from-purple-300 to-red-300",
+  //   title: "Spotify Music App",
+  //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+  //   img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  //   link: "https://lama.dev",
+  // },
 ];
 
 const PortfolioPage = () => {
@@ -74,7 +74,7 @@ const PortfolioPage = () => {
                   <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px]">
                     {item.desc}
                   </p>
-                  <Link href={item.link} className="flex justify-end">
+                  <Link href={item.link} target="_blank" className="flex justify-end">
                     <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Demo</button>
                   </Link>
                 </div>

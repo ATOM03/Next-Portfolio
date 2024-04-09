@@ -42,14 +42,14 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              harum quibusdam cupiditate nobis accusamus sed aut aperiam,
-              reiciendis numquam! Voluptas voluptatibus obcaecati dolore itaque
-              suscipit! Vel doloremque numquam quam nihil.
+            Embark on a journey through the digital landscape with Priyanshu Jhaginia, a visionary software developer 
+            who has been instrumental in shaping the technological advancements of the 21st century. 
+            From humble beginnings to pioneering breakthroughs, this biography traces the evolution of a coder extraordinaire who has 
+            left an indelible mark on the world of software engineering
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.
             </span>
             {/* BIOGRAPHY SIGN SVG*/}
             <Link href='/Priyanshu_Jhaginia-Resume.pdf' download="Priyanshu_Jhaginia_Resume.pdf" target="_blank" className="w-32 p-4 rounded-lg ring-1 ring-black bg-black text-white">
@@ -110,6 +110,9 @@ const AboutPage = () => {
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 TypeScript
               </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Data Structures and Algorithm
+              </div>
              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Tailwind CSS
               </div>
@@ -141,7 +144,7 @@ const AboutPage = () => {
                 Three.js
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Firebase
+                Supabase
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Git
@@ -204,8 +207,8 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I led web development, offering expertise in JavaScript
-                    frameworks.{" "}
+                    I led web development, offering expertise in React and spring-boot
+                    .{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
@@ -243,7 +246,7 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior React Developer
+                  Software Developer Intern{" "}
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
