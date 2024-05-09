@@ -93,13 +93,18 @@ const Navbar = () => {
         <Link href="https://github.com/ATOM03" target="_blank">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
-        
-        <Link href="https://www.instagram.com/priyanshu__jhaginia/" target="_blank">
+
+        <Link
+          href="https://www.instagram.com/priyanshu__jhaginia/"
+          target="_blank"
+        >
           <Image src="/instagram.png" alt="" width={24} height={24} />
         </Link>
-        
-        
-        <Link href="https://www.linkedin.com/in/priyanshujhaginia/" target="_blank">
+
+        <Link
+          href="https://www.linkedin.com/in/priyanshujhaginia/"
+          target="_blank"
+        >
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
       </div>
@@ -137,7 +142,7 @@ const Navbar = () => {
             {links.map((link) => (
               <motion.div
                 variants={listItemVariants}
-                className=""
+                className="-z-0"
                 key={link.title}
               >
                 <Link href={link.url}>{link.title}</Link>

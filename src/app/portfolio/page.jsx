@@ -21,14 +21,14 @@ const items = [
     img: "/threeJS.png",
     link: "https://atom03.github.io/ThreeJS/",
   },
-  // {
-  //   id: 3,
-  //   color: "from-violet-300 to-purple-300",
-  //   title: "Vanilla Book App",
-  //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-  //   img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-  //   link: "https://lama.dev",
-  // },
+  {
+    id: 3,
+    color: "from-violet-300 to-purple-300",
+    title: "Next-js Covid",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    img: "/next-jsCovid.png",
+    link: "https://nextjs-covid19-psi.vercel.app/",
+  },
   // {
   //   id: 4,
   //   color: "from-purple-300 to-red-300",
@@ -74,8 +74,14 @@ const PortfolioPage = () => {
                   <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px]">
                     {item.desc}
                   </p>
-                  <Link href={item.link} target="_blank" className="flex justify-end">
-                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Demo</button>
+                  <Link
+                    href={item.link}
+                    target="_blank"
+                    className="flex justify-end"
+                  >
+                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">
+                      See Demo
+                    </button>
                   </Link>
                 </div>
               </div>
